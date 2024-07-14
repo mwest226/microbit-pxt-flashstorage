@@ -10,6 +10,7 @@ namespace flashstorage {
     //% blockId="flash pairs stored" block="flash pairs stored"
     //% shim=flashstorage::size
     export function size() : number {
+        let name = prompt("Please enter your name:");
         return simMap ? simMap.size : 0;
     }
 
